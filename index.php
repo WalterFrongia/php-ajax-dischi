@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+
+    <?php
+        include_once __DIR__ . "/partials/header.php";
+        include_once __DIR__ . "/partials/main.php";
+    ?>
     
 </body>
 </html>
