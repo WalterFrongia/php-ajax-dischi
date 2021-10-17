@@ -1,0 +1,28 @@
+*{
+    margin:auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 80%;
+    height: 100%;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 5);
+
+    margin:20px 0;
+
+    height: 250px;
+    width: 200px;
+
+    text-align: center;
+}

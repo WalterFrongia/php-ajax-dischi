@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,10 +23,12 @@
             // var_dump($disc); //questo fa vedere gli array 
         ?>
         <!-- stampo php con chiave php in array  -->
-        <li> <?php echo $disc['images'];?> </li>
-        <li> <?php echo $disc['title'];?> </li>
-        <li> <?php echo $disc['artist'];?> </li>
-        <li> <?php echo $disc['year'];?> </li>
+        <div id="container">
+            <img src="<?php echo $disc['images'];?>" alt="">
+            <h3> <?php echo $disc['title'];?> </h3>
+            <p> <?php echo $disc['artist'];?> </p>
+            <p> <?php echo $disc['year'];?> </p>
+        </div>
     <?php } ?>
     
 </body>
